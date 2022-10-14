@@ -1,0 +1,24 @@
+{
+  "name": "app1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@influxdata/influxdb-client": "^1.21.0",
+    "@influxdata/influxdb-client-apis": "^1.21.0",
+    "chalk": "^4.1.2",
+    "express": "^4.17.1",
+    "mongodb": "^4.2.0",
+    "node-opcua": "^2.59.0",
+    "serialport": "^9.2.8",
+    "socket.io": "^4.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.6"
+  }
+}
